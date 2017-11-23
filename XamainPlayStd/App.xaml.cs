@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using XamainPlayStd;
 using Xamarin.Forms;
 
 namespace XamarinPlay
@@ -13,7 +13,7 @@ namespace XamarinPlay
         {
             InitializeComponent();
 
-            MainPage = new XamarinPlay.MainPage();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()

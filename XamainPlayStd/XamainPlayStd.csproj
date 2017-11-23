@@ -6,7 +6,14 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.1" />
+    <PackageReference Include="RestSharp" Version="106.1.0" />
     <PackageReference Include="Xamarin.Forms" Version="2.5.0.91635" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="MasterDetailPage1MenuItem.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>
