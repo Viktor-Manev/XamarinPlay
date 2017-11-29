@@ -2,10 +2,25 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:XamarinPlay"
+             xmlns:localBind="clr-namespace: XamainPlayStd.Model;assembly= XamainPlayStd"
              x:Class="XamarinPlay.MainPage">
+
+
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="n/a"
+            <Label x:Name="lblMainPage" Text= "{Binding FullName}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="lblMainPage2" Text= "{Binding MiddleName}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="lblMainPage3" Text= "{Binding lastName}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="lblMainPage4" Text= "{Binding relative.Reon}"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Label x:Name="lblMainPage5" Text= "{Binding themes.Poteklo}"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

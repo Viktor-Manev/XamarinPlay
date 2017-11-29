@@ -15,6 +15,8 @@ namespace XamainPlayStd
         public MasterDetailPage1Detail()
         {
             InitializeComponent();
+
+    
         }
     }
 }
