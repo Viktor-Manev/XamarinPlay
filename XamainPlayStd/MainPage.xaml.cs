@@ -23,6 +23,8 @@ namespace XamarinPlay
         {
             base.OnAppearing();
 
+
+
           //  var httpClient = new System.Net.Http.HttpClient();
 
             try

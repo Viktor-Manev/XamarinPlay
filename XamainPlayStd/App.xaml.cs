@@ -13,7 +13,7 @@ namespace XamarinPlay
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new XamainPlayStd.View.CarselTest();
         }
 
         protected override void OnStart()
