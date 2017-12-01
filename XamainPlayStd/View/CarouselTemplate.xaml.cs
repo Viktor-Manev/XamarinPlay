@@ -10,20 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace XamainPlayStd.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class CarselTest : CarouselPage
+	public partial class CarouselTemplate : ContentView
 	{
-		public CarselTest ()
+		public CarouselTemplate ()
 		{
 			InitializeComponent ();
-          
 		}
-
-
-        protected async override void OnAppearing()
-        {
-            base.OnAppearing();
-
-            await Navigation.PushAsync(new CarouselViewTest());
-        }
-    }
+	}
 }
